@@ -25,8 +25,8 @@ npm run dev
 [Ссылка на GitHub Pages](#) 
 
 ##  Используется:
-Node.js: v18.16.0
-npm: 9.5.1
-Vue: 3.3.4
-Vue Router: 4.2.4
-Vite: 5.2.0
+- Node.js: v18.16.0
+- npm: 9.5.1
+- Vue: 3.3.4
+- Vue Router: 4.2.4
+- Vite: 5.2.0
