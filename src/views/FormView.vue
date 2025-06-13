@@ -225,10 +225,10 @@ const validateForm = () => {
   
   // Валидация пользователя - ФИО
   if (!user.fullName.trim()) {
-    newErrors.fullName = 'Поле ФИО обязательно для заполнения'
+    newErrors.fullName = 'Поле Имя обязательно для заполнения'
     isValid = false
   } else if (/\d/.test(user.fullName)) {
-    newErrors.fullName = 'ФИО не должно содержать цифр'
+    newErrors.fullName = 'Имя не должно содержать цифр'
     isValid = false
   }
   
