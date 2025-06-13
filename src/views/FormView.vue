@@ -1,12 +1,12 @@
 <template>
   <div class="form-container">
-    <h1>Данные пользователя</h1>
+    <h1>Персональные данные</h1>
     <div class="user-form">
-      <input v-model="user.fullName" type="text" placeholder="ФИО" required>
+      <input v-model="user.fullName" type="text" placeholder="Имя" required>
       <input v-model.number="user.age" type="number" min="0" placeholder="Возраст" required>
     </div>
 
-    <h2>Дети</h2>
+    <h2>Дети (макс. 5)</h2>
     <ChildForm
       v-for="(child, index) in children"
       :key="index"
@@ -19,7 +19,7 @@
       @click="addChild"
       class="add-button"
     >
-      +
+      + Добавить ребенка
     </button>
     
     <button @click="saveData" class="save-button">Сохранить</button>
