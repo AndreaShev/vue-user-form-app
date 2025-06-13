@@ -378,15 +378,17 @@ onMounted(() => {
 }
 
 .user-form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  /* grid-template-columns: 1fr 1fr; */
   gap: 20px;
   margin-bottom: 40px;
+  justify-content: space-around;
+  overflow: hidden;
 }
 
 @media (max-width: 600px) {
   .user-form {
-    grid-template-columns: 1fr;
+     flex-direction: column;
   }
 }
 
