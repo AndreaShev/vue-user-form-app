@@ -1,7 +1,6 @@
 
 # Vue User Form Application
 
-![Project Screenshot](screenshot.png)
 
 ## Описание проекта
 
