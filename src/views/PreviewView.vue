@@ -4,7 +4,7 @@
     
     <div class="user-info">
       <h2>Пользователь</h2>
-      <p><strong>ФИО:</strong> {{ userData.user.fullName }}</p>
+      <p><strong>Имя:</strong> {{ userData.user.fullName }}</p>
       <p><strong>Возраст:</strong> {{ userData.user.age }}</p>
     </div>
     
