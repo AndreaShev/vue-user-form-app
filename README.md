@@ -15,7 +15,7 @@
 
 ## Установка
 ```bash
-git clone https://github.com/<ваш-username>/vue-user-form-app.git
+git clone https://github.com/andreashev.github.io/vue-user-form-app.git
 cd vue-user-form-app
 npm install
 npm run dev
